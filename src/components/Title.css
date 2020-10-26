@@ -1,0 +1,15 @@
+.title {
+	text-align: center;
+}
+
+h1 {
+	color: #eee;
+	font-size: 70px;
+	margin-top: 10px;
+	margin-bottom: 0px;
+	letter-spacing: 5px;
+	padding: 10px 40px;
+	border-radius: 20px;
+	text-shadow: 5px 5px 5px #1b1b1b;
+	text-shadow: 0 3px 15px rgba(255, 0, 0, 0.5);
+}

@@ -1,0 +1,13 @@
+/* className='pa3 ba b--green bg-lightest-blue' */
+.searchBoxDiv {
+	text-align: center;
+	margin-bottom: 20px;
+}
+.searchBox {
+	background-color: ;
+	border: solid black 2px;
+	border-radius: 20px;
+	padding: 5px 10px;
+	font-size: 20px;
+	text-align: center;
+}
