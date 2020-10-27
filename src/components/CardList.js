@@ -16,10 +16,12 @@ class CardList extends Component {
     return (
       <div className="container">
         {
-          this.props.pokemons.map((pokemon, i) => {
+          this.props.pokemons.map((pokemon) => {
+            console.log(pokemon.name);
             return (
-            <Card key={i} pokemon = { this.searchPokemon(pokemon.name)}
+            <Card key={pokemon.name} pokemon = { this.searchPokemon(pokemon.name)}
             />
+            
             )  
           })
         }        

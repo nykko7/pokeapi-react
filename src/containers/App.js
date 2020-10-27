@@ -17,7 +17,7 @@ class App extends Component {
 
   async componentDidMount() {
     
-    const response = await fetch('https://pokeapi.co/api/v2/pokemon/?limit=150');
+    const response = await fetch('https://pokeapi.co/api/v2/pokemon/?limit=151');
     const pokemons = await response.json();
     this.setState({ pokemonsArray: pokemons.results});
     console.log(this.state.pokemonsArray);

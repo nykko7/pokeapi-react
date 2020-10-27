@@ -1,7 +1,7 @@
 import React from 'react';
 import './SearchBox.css'
 
-const SearchBox = ({ searchfield, searchChange }) => {
+const SearchBox = ({ searchChange }) => {
   return (
     <div className='searchBoxDiv'>
       <input
